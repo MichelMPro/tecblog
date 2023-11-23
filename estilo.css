@@ -1,0 +1,123 @@
+/*Limpando configurações*/
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*cabeçalho*/
+header{
+	background-color: #f7b600;
+	height: 200px;
+	text-align: center;
+}
+
+h1{
+	margin: 0px;
+	padding: 0px;
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+.branco{
+	color: white;
+}
+
+nav a{
+	padding: 10px 20px 10px 20px;
+}
+
+nav a:link, a:visited{
+	color: #fff;
+}
+
+nav a:hover{
+	color: #f7b600;
+	background-color: white;
+}
+
+/*conteúdo lateral*/
+
+#container{
+	width: 1080px;
+	margin: auto;
+}
+
+#container aside{
+	width: 300px;
+	float: right;
+}
+
+#container aside section{
+	background-color: white;
+	margin: 5px;
+	padding: 5px;
+}
+
+#container aside section h4{
+	margin: 5px;
+	padding: 5px;
+	background-color: red;
+	color: white;
+}
+
+#container aside section a{
+	margin: 5px;
+	padding: 5px;
+	color: #f7b600;
+}
+
+#container aside section ul{
+	list-style-type: none;
+
+}
+#container aside section ul li{
+	padding: 5px;
+}
+
+#container aside section ul li a{
+	margin: -35px;
+}
+
+#container aside section p{
+	margin: 5px;
+	padding: 5px;
+}
+
+/*conteúdo principal*/
+
+article{
+	width: 740px;
+	
+}
+
+article section{
+	width: 640px;
+	background-color: white;
+	margin: auto;
+	padding: 20px;
+	margin: 20px;
+}
+
+h2{
+	margin-bottom: 0px;
+	color: #f7b600;
+}
+
+/*rodapé*/
+
+footer{
+	background-color: gray;
+	height: 50px;
+	text-align: center;
+}
+
+h3{
+	padding-top: 10px;
+}
